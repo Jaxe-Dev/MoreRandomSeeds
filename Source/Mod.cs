@@ -6,6 +6,10 @@ namespace MoreRandomSeeds
     [StaticConstructorOnStartup]
     internal static class Mod
     {
-        static Mod() => HarmonyInstance.Create("MoreRandomSeeds").PatchAll();
+        public const string Id = "MoreRandomSeeds";
+        public const string Name = "More Random Seeds";
+        public const string Version = "2.0";
+
+        static Mod() => HarmonyInstance.Create(Id).PatchAll();
     }
 }

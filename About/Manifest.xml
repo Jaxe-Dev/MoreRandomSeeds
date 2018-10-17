@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <Manifest>
   <identifier>MoreRandomSeeds</identifier>
   <version>2.1</version>
-  <manifestUri>https://github.com/Jaxe-Dev/MoreRandomSeeds/master/About/Manifest.xml</manifestUri>
+  <manifestUri>https://raw.githubusercontent.com/Jaxe-Dev/MoreRandomSeeds/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/Jaxe-Dev/MoreRandomSeeds/releases/latest</downloadUri>
 </Manifest>

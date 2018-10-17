@@ -19,7 +19,7 @@ Alters the Randomize seed button when creating a new world. Instead of a single 
 
 ---
 
-##### NON-STEAM INSTALLATION##### INSTALLATION
+##### NON-STEAM INSTALLATION
 - **[Download the latest release](https://github.com/Jaxe-Dev/MoreRandomSeeds/releases/latest) and unzip it into your *RimWorld/Mods* folder.**
 
 ---

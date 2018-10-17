@@ -14,8 +14,7 @@ namespace MoreRandomSeeds
         private const int MinDigits = 2;
 
         private static readonly string[] Separators = { "", "-" };
-        //private static readonly string[] Separators = { "-", ".", ":", " ", "" };
-                        
+
         public static string Get()
         {
             var separator = Separators[Rand.RangeInclusive(0, Separators.Length - 1)];

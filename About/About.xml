@@ -3,7 +3,6 @@
 <ModMetaData>
   <name>More Random Seeds</name>
   <author>Jaxe</author>
-  <targetVersion>0.19.0</targetVersion>
-  <description>Changes what the &lt;i&gt;Randomize seed &lt;/i&gt; button does when creating a new world. Instead of a single word, a numeric seed will be used.</description>
-  <url>https://ludeon.com/forums/index.php?topic=43925.0</url>
+  <targetVersion>1.0.0</targetVersion>
+  <description>Mod Version: 2.1\n\n\nChanges what the &lt;i&gt;Randomize seed &lt;/i&gt; button does when creating a new world. Instead of a single word, a numeric seed will be used.</description>
 </ModMetaData>

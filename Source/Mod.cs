@@ -8,7 +8,7 @@ namespace MoreRandomSeeds
     {
         public const string Id = "MoreRandomSeeds";
         public const string Name = "More Random Seeds";
-        public const string Version = "2.0";
+        public const string Version = "2.1";
 
         static Mod() => HarmonyInstance.Create(Id).PatchAll();
     }

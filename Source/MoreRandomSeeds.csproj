@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3159CFD-253F-4FA0-8846-1B44B1C6949B}</ProjectGuid>
+    <ProjectGuid>{E9CBFBC7-C3D0-4919-BE8F-72515DC039A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MoreRandomSeeds</RootNamespace>
@@ -46,10 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Patch.cs" />
-    <Compile Include="SeedGenerator.cs" />
+    <Compile Include="Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\About\About.xml">
@@ -58,8 +59,8 @@
     <Content Include="..\About\Manifest.xml">
       <Link>-\About\Manifest.xml</Link>
     </Content>
-    <Content Include="..\About\ModSync.xml">
-      <Link>-\About\ModSync.xml</Link>
+    <Content Include="..\Languages\English\Keyed\Keys.xml">
+      <Link>-\Languages\English\Keyed\Keys.xml</Link>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -67,5 +68,6 @@
       <Link>-\README.md</Link>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

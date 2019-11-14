@@ -1,5 +1,5 @@
 # More Random Seeds
-![Mod Version](https://img.shields.io/badge/Mod_Version-2.1-blue.svg)
+![Mod Version](https://img.shields.io/badge/Mod_Version-3.0-blue.svg)
 ![RimWorld Version](https://img.shields.io/badge/Built_for_RimWorld-1.0-blue.svg)
 ![Harmony Version](https://img.shields.io/badge/Powered_by_Harmony-1.2.0.1-blue.svg)\
 ![Steam Subscribers](https://img.shields.io/badge/dynamic/xml.svg?label=Steam+Subscribers&query=//table/tr[2]/td[1]&colorB=blue&url=https://steamcommunity.com/sharedfiles/filedetails/%3Fid=1501463043&suffix=+total)
@@ -10,7 +10,7 @@
 
 ---
 
-Alters the Randomize seed button when creating a new world. Instead of a single word, a numeric seed will be used
+Alters the Randomize seed button when creating a new world. Instead of a single word, seeds can be generated in a variety of custom formats with random digits or letters.
 
 ---
 
@@ -26,6 +26,6 @@ Alters the Randomize seed button when creating a new world. Instead of a single 
 
 The following base methods are patched with Harmony:
 ```
-Prefix  : GenText.RandomSeedString
+Prefix* : GenText.RandomSeedString
 ```
-
+A prefix marked by a \* denotes that in some circumstances the original method will be bypassed

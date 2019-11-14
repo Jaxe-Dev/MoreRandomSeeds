@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MoreRandomSeeds.Format>Seed Formats:</MoreRandomSeeds.Format>
+  <MoreRandomSeeds.Instructions>If multiple lines are proivded, a format line will be selected at random on each seed generation.</MoreRandomSeeds.Instructions>
+  <MoreRandomSeeds.Instructions.AnyDigit>Any digit from 0-9</MoreRandomSeeds.Instructions.AnyDigit>
+  <MoreRandomSeeds.Instructions.UpperLetter>Any uppercase letter from A-Z</MoreRandomSeeds.Instructions.UpperLetter>
+  <MoreRandomSeeds.Instructions.LowerLetter>Any lowercase letter from a-z</MoreRandomSeeds.Instructions.LowerLetter>
+  <MoreRandomSeeds.Instructions.AnyLetter>Any letter from A-z</MoreRandomSeeds.Instructions.AnyLetter>
+  <MoreRandomSeeds.Invalid>Invalid format. No line should be empty or be longer than 24 characters.</MoreRandomSeeds.Invalid>
+  <MoreRandomSeeds.Saved>Formats saved</MoreRandomSeeds.Saved>
+  <MoreRandomSeeds.Reset>Reset to default</MoreRandomSeeds.Reset>
+</LanguageData>

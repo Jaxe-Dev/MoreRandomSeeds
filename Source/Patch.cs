@@ -8,7 +8,8 @@ namespace MoreRandomSeeds
     {
         private static bool Prefix(ref string __result)
         {
-            __result = SeedGenerator.Get();
+            __result = Settings.GetSeed();
+            //__result = SeedGenerator.Get();
             return false;
         }
     }

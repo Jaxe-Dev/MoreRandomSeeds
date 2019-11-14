@@ -1,8 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
   <name>More Random Seeds</name>
   <author>Jaxe</author>
-  <targetVersion>1.0.0</targetVersion>
-  <description>Mod Version: 2.1\n\n\nChanges what the &lt;i&gt;Randomize seed &lt;/i&gt; button does when creating a new world. Instead of a single word, a numeric seed will be used.</description>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>Mod Version: 3.0\n\n\nChanges what the &lt;i&gt;Randomize seed &lt;/i&gt; button does when creating a new world. Instead of a single word, seeds can be generated in a variety of custom formats with random digits or letters.</description>
 </ModMetaData>

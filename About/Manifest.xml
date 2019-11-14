@@ -2,7 +2,7 @@
 
 <Manifest>
   <identifier>MoreRandomSeeds</identifier>
-  <version>2.1</version>
+  <version>3.0</version>
   <manifestUri>https://raw.githubusercontent.com/Jaxe-Dev/MoreRandomSeeds/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/Jaxe-Dev/MoreRandomSeeds/releases/latest</downloadUri>
 </Manifest>

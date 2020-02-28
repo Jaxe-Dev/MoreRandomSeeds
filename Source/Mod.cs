@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Harmony;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 
@@ -9,14 +9,14 @@ namespace MoreRandomSeeds
     {
         public const string Id = "MoreRandomSeeds";
         public const string Name = "More Random Seeds";
-        public const string Version = "3.0";
+        public const string Version = "4.0";
 
         private string _tempLines;
         private List<string> _tempFormats;
 
         public Mod(ModContentPack content) : base(content)
         {
-            HarmonyInstance.Create(Id).PatchAll();
+            new Harmony(Id).PatchAll();
             Settings.Init(this);
         }
 

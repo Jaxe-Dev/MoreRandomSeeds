@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
+  <packageId>Jaxe.MoreRandomSeeds</packageId>
   <name>More Random Seeds</name>
   <author>Jaxe</author>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
-  <description>Mod Version: 3.0\n\n\nChanges what the &lt;i&gt;Randomize seed &lt;/i&gt; button does when creating a new world. Instead of a single word, seeds can be generated in a variety of custom formats with random digits or letters.</description>
+  <description>Mod Version: 4.0\n\n\nChanges what the &lt;i&gt;Randomize seed &lt;/i&gt; button does when creating a new world. Instead of a single word, seeds can be generated in a variety of custom formats with random digits or letters.</description>
 </ModMetaData>

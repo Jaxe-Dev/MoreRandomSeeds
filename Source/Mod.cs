@@ -9,7 +9,7 @@ namespace MoreRandomSeeds
     {
         public const string Id = "MoreRandomSeeds";
         public const string Name = "More Random Seeds";
-        public const string Version = "4.0";
+        public const string Version = "5.0";
 
         private string _tempLines;
         private List<string> _tempFormats;
@@ -43,6 +43,8 @@ namespace MoreRandomSeeds
             if (listing.ButtonText("MoreRandomSeeds.Reset".Translate()))
             {
                 Settings.Reset();
+                _tempLines = null;
+                _tempFormats = null;
                 lines = null;
             }
 

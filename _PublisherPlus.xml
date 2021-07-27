@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Configuration>
-  <Excluded>
-    <exclude>D:\Games\Steam\steamapps\common\RimWorld\Mods\MoreRandomSeeds\# releases</exclude>
-    <exclude>D:\Games\Steam\steamapps\common\RimWorld\Mods\MoreRandomSeeds\.git</exclude>
-    <exclude>D:\Games\Steam\steamapps\common\RimWorld\Mods\MoreRandomSeeds\Source</exclude>
-  </Excluded>
-</Configuration>
